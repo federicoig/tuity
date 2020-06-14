@@ -52,7 +52,6 @@ export function SideBar(props){
                 </button>
                 </div>
                 <button type="button" className="tuit-button">Tuit</button>
-
             </nav>
         </div>
     )

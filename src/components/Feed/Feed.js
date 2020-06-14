@@ -1,33 +1,42 @@
 import React from "react"
 import { Tuit } from "./Tuit/Tuit.js"
-import sparks from "./sparks.svg"
+import sparks from "./svg/sparks.svg"
+import gallery from "./svg/gallery.svg"
+import gif from "./svg/gif.svg"
+import poll from "./svg/poll.svg"
+import emoji from "./svg/emoji.svg"
+import schedule from "./svg/schedule.svg"
+import "./Feed.scss"
 
 export function Feed(props){
+    const { userAvatar, tuit } = props
     return(
         <div className="feed">
-            <div className="user-input">
+            <div className="feed-wrapper">
                 <header>
-                    <div>
+                    <div className="wrapper">
                         <span>Home</span>
-                        <img alt="sparks" src={sparks}/>
+                        <img className="sparks" alt="sparks" src={sparks}/>
                     </div>
-                    <div>
-                        <img className="avatar" alt="avatar"></img>
-                        <div>
-                            <input></input>
-                            <img></img>
-                            <img></img>
-                            <img></img>
-                            <img></img>
-                            <img></img>
-                            <button></button>
+                    <div className="user-input">
+                        <img className="avatar" alt="avatar" src={userAvatar}></img>
+                        <div className="input">
+                            <input placeholder="What's happening?"></input>
+                            <div className="input-buttons">
+                                <img alt="" src={gallery} />
+                                <img alt="" src={gif} />
+                                <img alt="" src={poll} />
+                                <img alt="" src={emoji} />
+                                <img alt="" src={schedule} />
+                                <button type="button">Tuit</button> 
+                            </div>
                         </div>
                     </div>
                 </header>
             </div>
-            <Tuit>
-
-            </Tuit>
+            <Tuit
+                input={tuit}
+            />
         </div>
     )
 }

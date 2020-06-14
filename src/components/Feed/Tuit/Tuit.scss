@@ -1,0 +1,33 @@
+.tuit{
+    .article{
+        .post-info{
+            .poster-info{
+                display:flex;
+                margin: 2% 0 0 2.5%;
+                .avatar{
+                    border-radius: 2em;;
+                    width: 45px;
+                    height: 45px;
+                }
+                .who-when-what{
+                    margin-left: 2%;
+                    width: 100%;
+                    span{
+                        margin-right: 3%;
+                    }
+                    .name{
+                        font-weight: 700;
+                    }
+                    .username{
+                        color: #9197A3;
+                        font-size: 95%;
+                    }
+                    .when{
+                        color: #9197A3;
+                        font-size: 95%;
+                    }
+                }
+            }
+        }
+    }
+}
