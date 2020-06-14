@@ -1,0 +1,102 @@
+.trending{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .input{
+        display: flex;
+        padding: 2.5%;
+        margin: 2% 0 5% 0;
+        width: 85%;
+        background-color: #253341;
+        border-radius: 3em;
+        input{
+            outline: none;
+            background-color: #253341;
+            border: none;
+            color: snow;
+            font-size: 100%;
+        }
+        img{
+            width: 22px;
+            height: 22px;
+            margin: 0 3% 0 2%;
+            background-color: #253341
+        }
+        ::placeholder{
+            color: slategrey;
+        }
+    }
+    .card{
+        width: 85%;
+        h3{
+            padding: 3% 4% 4% 4%;
+            border-top-left-radius: 1em;
+            border-top-right-radius: 1em;
+            background-color: #192734;
+            font-size: 125%;
+            border-bottom: 2px #27323C solid;
+        }
+        .topic{
+            background-color: #192734;
+            padding: 2% 0 3% 4%;
+            border-bottom: 2px #27323C solid;
+            cursor: pointer;
+            transition: 0.2s ease-in;
+            &:hover {
+                background-color: #213344;
+                h4{
+                    background-color: #213344;
+
+                }
+                span{
+                    background-color: #213344;
+                }
+            }
+            h4{
+                background-color: #192734;
+                font-size: 105%;
+                transition: 0.2s ease-in;
+            }
+            span{
+                background-color: #192734;
+                transition: 0.2s ease-in;
+                color: slategray;
+            }
+        }
+        button{
+            cursor: pointer;
+            width: 100%;
+            outline: none;
+            border: none;
+            background-color: #192734;
+            padding: 3% 4% 4% 4%;
+            border-bottom-left-radius: 1em;
+            border-bottom-right-radius: 1em;
+            font-size: 102%;
+            text-align: left;
+            color: #1A91DA;
+            transition: 0.2s ease-in;
+            &:hover{
+                background-color: #213344;
+            }
+        }
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        .legal-stuff{
+            margin-top: 3%;
+            display: flex;
+            justify-content: space-evenly;
+            span{
+                color:slategrey;
+                font-size: 90%;
+            }
+        }
+        .tuity{
+            width: 85%;
+            text-align: left;
+            font-size: 90%;
+        }
+    }
+}

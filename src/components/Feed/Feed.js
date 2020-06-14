@@ -33,10 +33,10 @@ export function Feed(props){
                         </div>
                     </div>
                 </header>
+                <div className="tuit">
+                    {tuit}
+                </div>
             </div>
-            <Tuit
-                input={tuit}
-            />
         </div>
     )
 }
