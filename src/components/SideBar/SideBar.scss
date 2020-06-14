@@ -1,0 +1,62 @@
+.side-bar{
+    border-right: 1px solid grey;
+
+    .nav-bar{
+        display: flex;
+        flex-direction: column;
+        margin: 4% 0 0 19%;
+        .logo{
+            img{
+                width: 33px;
+                height: 39px; 
+            }      
+        }
+        .buttons{
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            button{
+                text-align: left;
+                font-size: 120%;
+                font-weight: 700;
+                border: none;
+                outline: none;
+                margin-top: 13%;
+                cursor: pointer;
+                &:hover{
+                    color: #1A91DA;
+                    border-radius: 2em;
+                    background-color: #45a0d89f;
+                }
+                span{
+                    margin-left: 12%;
+                    vertical-align: super;
+                }
+            }
+        }
+        .tuit-button{
+            cursor: pointer;
+            margin: 10% 0 2% 0;
+            font-weight: 700;
+            border: none;
+            font-size: 104%;
+            letter-spacing: 1px;
+            width: 80%;
+            height: 45px;
+            outline: none;
+            border-radius: 2em;
+            background-color: #1da1f2;
+            color: snow;
+            transition: 0.2s ease-in;
+            padding: 1%;
+            &:hover{
+                background-color: rgb(36, 142, 207);
+            }
+        }
+    }
+}
+
+img{
+    width: 26px;
+    height: 30px;
+}
