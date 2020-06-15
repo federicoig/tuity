@@ -35,6 +35,9 @@
                         }
                     }
                     .content{
+                        .tuit-content{
+                            white-space: pre-line
+                        }
                         .tuit-buttons{
                             display: flex;
                             justify-content: space-between;
@@ -45,11 +48,7 @@
                                 transition: 0.2s ease-in;
                                 height: 20px;
                                 &:hover{
-                                    filter: invert(52%) sepia(40%) saturate(1113%) hue-rotate(162deg) brightness(87%) contrast(96%);;
-
-                                    border-radius: 9999px;
-                                    padding: -1%;
-                                    background-color: #45a0d85d;
+                                    fill: #1A91DA;
                                 }
                             }
                         }

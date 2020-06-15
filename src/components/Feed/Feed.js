@@ -28,7 +28,7 @@ export function Feed(props){
                                 <img alt="" src={poll} />
                                 <img alt="" src={emoji} />
                                 <img alt="" src={schedule} />
-                                <button type="button">Tuit</button> 
+                                <button className="tuit-button" type="button">Tuit</button> 
                             </div>
                         </div>
                     </div>

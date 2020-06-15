@@ -19,11 +19,6 @@
                     width: 25px;
                     height: 25px;
                     transition: 0.2s ease-in;
-                    &:hover{
-                        border-radius: 9999px;
-                        padding: 0.5%;
-                        background-color: #45a0d85d;
-                    }
                 }
             }
             .user-input{
@@ -49,6 +44,7 @@
                     }
                     .input-buttons{
                         display: flex;
+                        flex-direction: row;
                         align-items: center;
                         margin-bottom: 5%;
                         img{
@@ -57,11 +53,6 @@
                             height: 23px;
                             margin-right: 5%;
                             transition: 0.1s ease-in;
-                            &:hover{
-                                padding: 0.5%;
-                                border-radius: 9999px;
-                                background-color: #45a0d85d;
-                            }
                         }
                         button{
                             cursor: pointer;
@@ -71,6 +62,8 @@
                             letter-spacing: 1px;
                             width: 9em;
                             height: 2.25em;
+                            padding: 0 8% 0 8%;
+                            margin-left: 95%;
                             outline: none;
                             border-radius: 2em;
                             background-color: #1da1f2;
@@ -85,4 +78,63 @@
             }
         }
     }
+}
+
+@media (max-width:450px){
+    .feed{
+        .feed-wrapper{
+            header{
+                .wrapper{
+                    display: flex;
+                    span{
+                        margin: 0 70% 0 3%;
+                    }
+                }
+                .user-input{
+                    display: flex;
+                    margin-left: 2.5%;
+                    .avatar{
+                        border-radius: 3em;
+                        width: 45px;
+                        height: 45px;
+                    }
+                    .input{
+                        display: flex;
+                        flex-direction: column;
+                        margin-left: 4%;
+                        ::placeholder{
+                            color: #9197A3;
+                        }
+                        input{
+                            outline: none;
+                            border: none;
+                            padding: 5% 5% 10% 0;
+                            font-size: 115%;
+                        }
+                        .input-buttons{
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            margin-bottom: 5%;
+                            img{
+                                cursor: pointer;
+                                width: 21px;
+                                height: 21px;
+                                margin-right: 5%;
+                                transition: 0.1s ease-in;
+                            }
+                            button{
+                                font-weight: 500;
+                                font-size: 80%;
+                                width: 5em;
+                                height: 2em;
+                                padding: 0 8% 0 8%;
+                                margin-left: 25%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }    
 }

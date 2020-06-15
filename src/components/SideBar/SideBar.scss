@@ -13,20 +13,23 @@
         .buttons{
             display: flex;
             flex-direction: column;
-            width: 60%;
+            width: 80%;
             button{
                 text-align: left;
                 font-size: 120%;
                 font-weight: 700;
                 border: none;
                 outline: none;
-                margin-top: 13%;
+                margin-top: 6%;
                 cursor: pointer;
+                padding:2.5% 2.5% 2.5% 5%;
                 &:hover{
                     color: #1A91DA;
                     border-radius: 9999px;
                     background-color:#162D40;
+                    transition: 0.1s ease-in;
                     span{
+                        width: 115%;
                         color: #1A91DA;
                         border-radius: 9999px;
                         background-color: #162D40;
@@ -35,16 +38,12 @@
                     img{
                         color: #1A91DA;
                         border-radius: 9999px;
-                        padding-left: 1%;
                         background-color: #162D40;     
                     }
                 }
                 span{
-                    margin-left: 12%;
+                    margin-left: 10%;
                     vertical-align: super;
-                }
-                img{
-                    transition: 0.1s ease-in;
                 }
             }
         }

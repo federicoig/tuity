@@ -11,3 +11,15 @@
     display: grid;
     grid-template-columns: 25% 45% 30%;
 }
+
+@media (max-width: 450px){
+    .app{
+        display: block;
+    }
+    .side-bar{
+        display: none;
+    }
+    .trending{
+        display: none;
+    }
+}

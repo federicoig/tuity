@@ -13,22 +13,40 @@ export function Trending(props){
             <div className="card">
                 <h3>What's happening</h3>
                 <Card trending={{
-                        topic:"city pop",
-                        tuitQuantity:"4,928"
+                        topic:"Cuarentena",
+                        tuitQuantity:"13,698"
+                    }}
+                />
+                <Card trending={{
+                        topic:"City Pop",
+                        tuitQuantity:"6,928"
+                    }}
+                />
+                <Card trending={{
+                        topic:"#UltimosCartuchos",
+                        tuitQuantity:"9,463"
+                    }}
+                />
+                <Card trending={{
+                        topic:"Capitán del Espacio",
+                        tuitQuantity:"2,213"
+                    }}
+                />
+                <Card trending={{
+                        topic:"Tuity",
+                        tuitQuantity:"5,523"
                     }}
                 />
                 <button type="button">Show more</button>
             </div>
-            <div className="wrapper">
-                <div className="legal-stuff">
-                    <span>Terms</span>
-                    <span>Privacy policy</span>
-                    <span>Cookies</span>
-                    <span>Ads info</span>
-                    <span>More</span>
-                </div>
-                <span className="tuity">© 2020 tuity, Inc.</span>
+            <div className="legal-stuff">
+                <span>Terms</span>
+                <span>Privacy policy</span>
+                <span>Cookies</span>
+                <span>Ads info</span>
+                <span>More</span>
             </div>
+            <span className="tuity">© 2020 tuity, Inc.</span>
         </div>
     )
 }
