@@ -9,7 +9,7 @@ export function App() {
     <div className="app">
       <SideBar/>
       <Feed
-        userAvatar="https://avatars1.githubusercontent.com/u/56234680?s=460&u=c8b81c525b1fd029db3020b17177dde2458a994e&v=4"
+        userAvatar="https://pbs.twimg.com/profile_images/1235289774581309441/6uGkgZzB_400x400.png"
         tuit={
           <React.Fragment>
             <Tuit content={{
