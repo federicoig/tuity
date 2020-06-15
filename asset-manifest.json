@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/tuity/static/css/main.54204d01.chunk.css",
+    "main.js": "/tuity/static/js/main.fea624d6.chunk.js",
+    "main.js.map": "/tuity/static/js/main.fea624d6.chunk.js.map",
+    "runtime-main.js": "/tuity/static/js/runtime-main.8b5e5423.js",
+    "runtime-main.js.map": "/tuity/static/js/runtime-main.8b5e5423.js.map",
+    "static/js/2.5367e7d0.chunk.js": "/tuity/static/js/2.5367e7d0.chunk.js",
+    "static/js/2.5367e7d0.chunk.js.map": "/tuity/static/js/2.5367e7d0.chunk.js.map",
+    "index.html": "/tuity/index.html",
+    "precache-manifest.a956336512eb2816cdf14fe9beb4ffe7.js": "/tuity/precache-manifest.a956336512eb2816cdf14fe9beb4ffe7.js",
+    "service-worker.js": "/tuity/service-worker.js",
+    "static/css/main.54204d01.chunk.css.map": "/tuity/static/css/main.54204d01.chunk.css.map",
+    "static/js/2.5367e7d0.chunk.js.LICENSE.txt": "/tuity/static/js/2.5367e7d0.chunk.js.LICENSE.txt",
+    "static/media/bell.svg": "/tuity/static/media/bell.d1d4dfa4.svg",
+    "static/media/bookmarks.svg": "/tuity/static/media/bookmarks.6f66df60.svg",
+    "static/media/comment.svg": "/tuity/static/media/comment.15cf8255.svg",
+    "static/media/emoji.svg": "/tuity/static/media/emoji.df6538c6.svg",
+    "static/media/gallery.svg": "/tuity/static/media/gallery.9172f728.svg",
+    "static/media/gif.svg": "/tuity/static/media/gif.96385fcb.svg",
+    "static/media/hashtag.svg": "/tuity/static/media/hashtag.fb79059e.svg",
+    "static/media/home.svg": "/tuity/static/media/home.81c84dc7.svg",
+    "static/media/like.svg": "/tuity/static/media/like.69d27f81.svg",
+    "static/media/lists.svg": "/tuity/static/media/lists.92a1565c.svg",
+    "static/media/logo.svg": "/tuity/static/media/logo.0c327949.svg",
+    "static/media/message.svg": "/tuity/static/media/message.a9e228fe.svg",
+    "static/media/options.svg": "/tuity/static/media/options.11e4d95f.svg",
+    "static/media/poll.svg": "/tuity/static/media/poll.f4d1e6cf.svg",
+    "static/media/profile.svg": "/tuity/static/media/profile.f078c0a3.svg",
+    "static/media/retuit.svg": "/tuity/static/media/retuit.2252aa2d.svg",
+    "static/media/schedule.svg": "/tuity/static/media/schedule.c913462a.svg",
+    "static/media/search.svg": "/tuity/static/media/search.d1b561bd.svg",
+    "static/media/share.svg": "/tuity/static/media/share.f98a8d33.svg",
+    "static/media/sparks.svg": "/tuity/static/media/sparks.df7de5c6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8b5e5423.js",
+    "static/js/2.5367e7d0.chunk.js",
+    "static/css/main.54204d01.chunk.css",
+    "static/js/main.fea624d6.chunk.js"
+  ]
+}
