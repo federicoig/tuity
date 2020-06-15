@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tuity/static/css/main.54204d01.chunk.css",
+    "main.css": "/tuity/static/css/main.a152e6ed.chunk.css",
     "main.js": "/tuity/static/js/main.a43f0946.chunk.js",
     "main.js.map": "/tuity/static/js/main.a43f0946.chunk.js.map",
     "runtime-main.js": "/tuity/static/js/runtime-main.8b5e5423.js",
@@ -8,9 +8,9 @@
     "static/js/2.5367e7d0.chunk.js": "/tuity/static/js/2.5367e7d0.chunk.js",
     "static/js/2.5367e7d0.chunk.js.map": "/tuity/static/js/2.5367e7d0.chunk.js.map",
     "index.html": "/tuity/index.html",
-    "precache-manifest.09b7fa79e7ee89f00e097f62448cb637.js": "/tuity/precache-manifest.09b7fa79e7ee89f00e097f62448cb637.js",
+    "precache-manifest.83e020b838f4867e17719a9ab93591af.js": "/tuity/precache-manifest.83e020b838f4867e17719a9ab93591af.js",
     "service-worker.js": "/tuity/service-worker.js",
-    "static/css/main.54204d01.chunk.css.map": "/tuity/static/css/main.54204d01.chunk.css.map",
+    "static/css/main.a152e6ed.chunk.css.map": "/tuity/static/css/main.a152e6ed.chunk.css.map",
     "static/js/2.5367e7d0.chunk.js.LICENSE.txt": "/tuity/static/js/2.5367e7d0.chunk.js.LICENSE.txt",
     "static/media/bell.svg": "/tuity/static/media/bell.d1d4dfa4.svg",
     "static/media/bookmarks.svg": "/tuity/static/media/bookmarks.6f66df60.svg",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.8b5e5423.js",
     "static/js/2.5367e7d0.chunk.js",
-    "static/css/main.54204d01.chunk.css",
+    "static/css/main.a152e6ed.chunk.css",
     "static/js/main.a43f0946.chunk.js"
   ]
 }
