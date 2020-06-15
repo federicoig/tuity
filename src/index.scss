@@ -12,6 +12,22 @@
     grid-template-columns: 25% 45% 30%;
 }
 
+@media (max-width: 900px){
+    .app{
+        grid-template-columns: 30% 70%;
+    }
+    .trending{
+        display: none;
+    }
+}
+
+@media (max-width: 750px){
+    .app{
+        grid-template-columns: 15% 85%;
+    }
+
+}
+
 @media (max-width: 450px){
     .app{
         display: block;

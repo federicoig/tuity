@@ -73,3 +73,76 @@ img{
     width: 25px;
     height: 29px;
 }
+
+@media (max-width: 1100px){
+    .side-bar{
+        border-right: 2px solid #27323C;
+        .nav-bar{
+            display: flex;
+            flex-direction: column;
+            margin: 4% 0 0 19%;
+            .buttons{
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+                button{
+                    text-align: left;
+                    font-size: 105%;
+                    font-weight: 700;
+                    }
+                }
+            }
+            .tuit-button{
+                font-weight: 500;
+                font-size: 104%;
+                letter-spacing: 1px;
+                width: 80%;
+                height: 45px;
+                outline: none;
+                border-radius: 2em;
+            }
+        }
+    }
+
+@media (max-width: 950px){
+    .side-bar{
+        .nav-bar{
+            .buttons{
+                button{
+                    margin-top: 10%;
+                }
+            }
+        }
+    }
+    img{
+        width: 25px;
+        height: 25px;
+    }
+    span{
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 750px){
+.side-bar{
+    .nav-bar{
+        margin-top: 15%;
+        .buttons{
+                display: flex;
+                flex-direction: column;
+                width: 75%;
+                button{
+                    text-align: center;
+                    margin: 25% 0 25% 0;
+                        img{
+                            width: 30px;
+                            height: 30px;
+                        }
+                        span{
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+}
