@@ -72,7 +72,7 @@ export function App() {
                 avatar:"https://i.gyazo.com/498c703949b55dc8f8a78ac8a16d72fc.png",
                 name:"charly garcia",
                 username:"@charlygarcia",
-                when:"3 hours ago",
+                when:"21 hours ago",
                 tuit:`Acabo de llegar, no soy un extraño
                 Conozco esta ciudad no es como en los diarios, desde allá
                 Dos tipos en un bar, se toman las manos
