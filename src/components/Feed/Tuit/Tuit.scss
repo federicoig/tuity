@@ -1,10 +1,20 @@
 .tuit{
     .article{
-        border-bottom: 2px #27323C solid;
+        border-bottom: 1px #27323C solid;
         .post-info{
-            .poster-info{   
+            .poster-info{
                 display:flex;
-                margin: 2% 0 0 2.5%;
+                padding: 2% 0 0 2.5%;
+                cursor: pointer;
+                &:hover{
+                    background-color: #192734;
+                    transition: 0.1s ease-in;
+                    *{
+                        cursor: pointer;
+                        background-color: #192734;
+                        transition: 0.1s ease-in;
+                    }  
+                }
                 .avatar{
                     border-radius: 2em;;
                     width: 45px;
@@ -47,9 +57,6 @@
                                 width: 25px;
                                 transition: 0.2s ease-in;
                                 height: 20px;
-                                &:hover{
-                                    fill: #1A91DA;
-                                }
                             }
                         }
                     }

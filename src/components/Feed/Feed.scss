@@ -56,6 +56,9 @@
                             height: 23px;
                             margin-right: 5%;
                             transition: 0.1s ease-in;
+                            &:hover{
+                                filter: saturate(50%) grayscale(50%);
+                            }
                         }
                         button{
                             cursor: pointer;

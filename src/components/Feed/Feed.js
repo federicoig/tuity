@@ -1,5 +1,4 @@
 import React from "react"
-import { Tuit } from "./Tuit/Tuit.js"
 import sparks from "./svg/sparks.svg"
 import gallery from "./svg/gallery.svg"
 import gif from "./svg/gif.svg"
