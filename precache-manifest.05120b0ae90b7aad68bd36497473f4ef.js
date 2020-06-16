@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e3094cb38bddfdc1c854b8d545634d0",
+    "revision": "bac312da87c49a9de7855bed2c706803",
     "url": "/tuity/index.html"
   },
   {
-    "revision": "a0835eba5eb909de55c9",
-    "url": "/tuity/static/css/main.a152e6ed.chunk.css"
+    "revision": "3ce7dc659c078ad8aab4",
+    "url": "/tuity/static/css/main.049d072d.chunk.css"
   },
   {
     "revision": "54db52d5b70a5ee6078f",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tuity/static/js/2.5367e7d0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a0835eba5eb909de55c9",
-    "url": "/tuity/static/js/main.a43f0946.chunk.js"
+    "revision": "3ce7dc659c078ad8aab4",
+    "url": "/tuity/static/js/main.0680a8a4.chunk.js"
   },
   {
     "revision": "f57e22673128041faf47",

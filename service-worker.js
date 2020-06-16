@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/tuity/precache-manifest.83e020b838f4867e17719a9ab93591af.js"
+  "/tuity/precache-manifest.05120b0ae90b7aad68bd36497473f4ef.js"
 );
 
 self.addEventListener('message', (event) => {
