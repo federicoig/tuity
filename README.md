@@ -1,8 +1,19 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## DEMO
+
+Open [tuity DEMO](https://federicoig.github.io/tuity/) to visualize live demo
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+Install all the dependencies. <br />
+
+This script is necessary for `npm start` <br />
+if you don't run this script, the app won't work
 
 ### `npm start`
 
